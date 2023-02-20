@@ -3,7 +3,7 @@
 ## How to play
 
 1. Enter the game information by entering board height, board width, number of snakes and number of ladder
-2. Click Ok to generate the board
+2. Click ok to generate the board
 3. Click on the Dice generate the random number and move the player.
 
 ## Game Information
