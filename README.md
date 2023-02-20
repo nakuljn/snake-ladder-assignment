@@ -5,6 +5,7 @@
 1. Enter the game information by entering board height, board width, number of snakes and number of ladder
 2. Click ok to generate the board
 3. Click on the Dice generate the random number and move the player.
+4. Click on Generate new board to generate another new board of different dimensions
 
 ## Game Information
 
