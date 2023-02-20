@@ -194,7 +194,7 @@ public class Board : MonoBehaviour
         int upperLevel = Random.Range(lowerLevel + 1, settings.height);
 
         int lowerLevelPosition = Random.Range(lowerLevel == 0 ? 1 : 0, settings.width);
-        int upperLevelPosition = Random.Range(0, upperLevel == settings.height - 1 ? settings.width - 1 : settings.width);
+        int upperLevelPosition = Random.Range(upperLevel == settings.height - 1 ? 1 : 0, upperLevel == settings.height - 1 ? settings.width - 1 : settings.width);
 
         int lowerCellIndex = GetCellIndex(lowerLevel, lowerLevelPosition);
         int upperCellIndex = GetCellIndex(upperLevel, upperLevelPosition);
